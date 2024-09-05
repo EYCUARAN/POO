@@ -1,3 +1,9 @@
+""" Desarrollar un sistema avanzado de gestión de inventarios para una tienda,
+ que incorpore las colecciones en POO para un manejo eficiente de los ítems
+ del inventario y almacene la información del inventario en archivos."""
+# Clase Producto
+import json
+
 class Producto:
     def __init__(self, id_producto, nombre, cantidad, precio):
         self.id_producto = id_producto
